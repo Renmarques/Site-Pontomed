@@ -1,5 +1,2 @@
 User-agent: *
-Allow: /
-Disallow: /lp/
-
-Sitemap: https://seudominio.com.br/sitemap.xml
+Disallow: /
