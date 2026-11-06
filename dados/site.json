@@ -1,0 +1,30 @@
+{
+  "nome": "Ponto Med",
+  "dominio": "https://seudominio.com.br",
+  "gtmId": "GTM-XXXXXXX",
+  "indexar": true,
+  "telefone": "(21) 2042-6767",
+  "telefoneLink": "+552120426767",
+  "razaoSocial": "COPAMED COMERCIO E ALUGUEL DE MATERIAIS MEDICOS HOSPITALARES LTDA",
+  "cnpj": "23.829.037/0002-03",
+  "anosDeMercado": "",
+  "avaliacaoGoogle": "4,6",
+  "totalAvaliacoes": "130",
+  "areaAtendida": [
+    "Rio de Janeiro"
+  ],
+  "depoimentos": [
+    {
+      "nome": "Márcia Oliveira",
+      "texto": "Atendimento excelente! Fui muito bem orientado na escolha do equipamento e tudo foi resolvido de forma rápida pelo WhatsApp."
+    },
+    {
+      "nome": "Roberto Almeida",
+      "texto": "Equipamentos em ótimo estado e equipe muito atenciosa. Recomendo para quem precisa alugar ou comprar."
+    },
+    {
+      "nome": "Fernanda Costa",
+      "texto": "Atendimento humanizado e profissional. A equipe me ajudou a escolher o equipamento ideal para o meu pai."
+    }
+  ]
+}

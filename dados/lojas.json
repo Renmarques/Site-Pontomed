@@ -1,0 +1,66 @@
+[
+  {
+    "id": "leblon",
+    "nome": "Leblon",
+    "prep": "do",
+    "prep_titulo": "no Leblon",
+    "endereco": "Rua Carlos Góis, 234, Loja C, Leblon",
+    "whatsapp": "5521989521445",
+    "horario": "Seg a Sex: 9h às 19h · Sáb: 9h às 14h · Dom: fechado",
+    "horarioSchema": [
+      "Mo-Fr 09:00-19:00",
+      "Sa 09:00-14:00"
+    ],
+    "nota": "4,4",
+    "avaliacoes": 20,
+    "texto": "A loja do Leblon recebe quem mora ou trabalha na parte nobre da Zona Sul, entre a Lagoa e a Barra. É um bom ponto para moradores do Leblon e de Ipanema que precisam alugar ou comprar um equipamento de mobilidade sem pegar trânsito. Se você mora em São Conrado ou no Jardim Botânico, também pode chamar a loja pelo WhatsApp e combinar a retirada ou a entrega."
+  },
+  {
+    "id": "gavea",
+    "nome": "Gávea",
+    "prep": "da",
+    "prep_titulo": "na Gávea",
+    "endereco": "Av. Bartolomeu Mitre, 630, Loja G, Gávea",
+    "whatsapp": "5521968821036",
+    "horario": "Seg a Sex: 8h às 18h · Sáb: 8h às 14h · Dom: fechado",
+    "horarioSchema": [
+      "Mo-Fr 08:00-18:00",
+      "Sa 08:00-14:00"
+    ],
+    "nota": "4,7",
+    "avaliacoes": 9,
+    "texto": "A loja da Gávea atende as famílias da região da Lagoa e do Jardim Botânico, perto do Leblon e de São Conrado. Muita gente chama a loja para alugar cadeira de rodas ou andador durante a recuperação de uma cirurgia, e o atendimento pelo WhatsApp ajuda a combinar o melhor dia e horário para retirar ou receber o equipamento."
+  },
+  {
+    "id": "copacabana",
+    "nome": "Copacabana",
+    "prep": "de",
+    "prep_titulo": "em Copacabana",
+    "endereco": "Rua Bolívar, 80, Loja B, Copacabana",
+    "whatsapp": "5521976062511",
+    "horario": "Seg a Sex: 9h às 19h · Sáb: 9h às 14h · Dom: fechado",
+    "horarioSchema": [
+      "Mo-Fr 09:00-19:00",
+      "Sa 09:00-14:00"
+    ],
+    "nota": "4,2",
+    "avaliacoes": 31,
+    "texto": "A loja de Copacabana atende uma das regiões com mais moradores idosos do Rio. Por isso, o aluguel de cadeira de rodas, andadores e muletas é muito procurado por aqui. Moradores do Leme, da Urca, de Ipanema e de Botafogo também podem falar com a loja pelo WhatsApp para tirar dúvidas, ver valores e combinar a retirada."
+  },
+  {
+    "id": "laranjeiras",
+    "nome": "Laranjeiras",
+    "prep": "de",
+    "prep_titulo": "em Laranjeiras",
+    "endereco": "Rua das Laranjeiras, 58, Laranjeiras",
+    "whatsapp": "5521994710321",
+    "horario": "Seg a Sex: 9h às 19h · Sáb: 9h às 14h · Dom: fechado",
+    "horarioSchema": [
+      "Mo-Fr 09:00-19:00",
+      "Sa 09:00-14:00"
+    ],
+    "nota": "4,9",
+    "avaliacoes": 70,
+    "texto": "A loja de Laranjeiras fica em uma região residencial e tranquila, que reúne moradores de Laranjeiras, Cosme Velho, Flamengo, Catete e Botafogo. É a opção para quem busca alugar ou comprar equipamentos de mobilidade com atendimento próximo, sem sair do bairro, e pode tirar as dúvidas antes pelo WhatsApp."
+  }
+]

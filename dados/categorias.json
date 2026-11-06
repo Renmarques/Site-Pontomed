@@ -1,0 +1,201 @@
+{
+  "cadeira-de-rodas": {
+    "nome": "Cadeira de rodas",
+    "ordem": 1,
+    "title": "Cadeira de Rodas: Aluguel e Venda no Rio de Janeiro | Ponto Med",
+    "desc": "Aluguel mensal de cadeira de rodas e cadeira de rodas à venda no Rio. Dobrável, motorizada, escaladora e cadeiras de transferência. Leblon, Gávea, Copacabana e Laranjeiras.",
+    "h1": "Cadeira de rodas: aluguel e venda no Rio de Janeiro",
+    "h2a": "Aluguel de cadeira de rodas",
+    "h2v": "Cadeira de rodas à venda",
+    "modelos_h2": "Modelos de cadeira de rodas: aluguel e venda",
+    "modelos_p": "Compare os modelos disponíveis nas nossas lojas. Para comprar cadeira de rodas ou alugar o modelo certo, chame a loja mais próxima.",
+    "faq": [
+      [
+        "Vale mais a pena alugar ou comprar uma cadeira de rodas?",
+        "Alugar costuma compensar quando o uso é temporário, como em recuperação de cirurgia ou fratura. Comprar compensa quando o uso é de longo prazo ou permanente."
+      ],
+      [
+        "Como escolher o tamanho da cadeira de rodas?",
+        "Meça a largura do quadril sentado e confira a largura do assento. Considere também o peso da pessoa e o local de uso. Nossa equipe orienta pelo WhatsApp."
+      ],
+      [
+        "Como funciona o aluguel de cadeira de rodas?",
+        "O aluguel é mensal. Consulte os valores e as condições no WhatsApp da loja."
+      ],
+      [
+        "A cadeira de rodas dobrável cabe no carro?",
+        "Os modelos dobráveis foram feitos para facilitar o transporte em porta-malas. Confirme as medidas dobrada do modelo com a loja."
+      ],
+      [
+        "Vocês vendem ou alugam cadeira de rodas motorizada?",
+        "Trabalhamos com o modelo motorizado para aluguel e venda. Consulte a disponibilidade e os valores no WhatsApp."
+      ]
+    ],
+    "lp": {
+      "h1": "Alugue ou compre cadeira de rodas no Rio de Janeiro",
+      "sub": "Aluguel mensal ou compra. Fale agora com a loja mais próxima de você pelo WhatsApp.",
+      "beneficios": [
+        "Aluguel mensal ou compra",
+        "Dobrável, motorizada, escaladora e de transferência",
+        "4 lojas no Rio: escolha a mais próxima"
+      ]
+    },
+    "card_desc": "Dobrável, motorizada, escaladora e de transferência, para recuperação, uso no dia a dia e transporte."
+  },
+  "muletas": {
+    "nome": "Muletas",
+    "ordem": 2,
+    "title": "Muletas: Aluguel e Venda no Rio de Janeiro | Ponto Med",
+    "desc": "Aluguel de muletas e muletas à venda no Rio de Janeiro. Axilar e canadense, com orientação para regular a altura. Lojas no Leblon, Gávea, Copacabana e Laranjeiras.",
+    "h1": "Muletas: aluguel e venda no Rio de Janeiro",
+    "h2a": "Aluguel de muletas",
+    "h2v": "Muletas à venda",
+    "modelos_h2": "Tipos de muleta: aluguel e venda",
+    "modelos_p": "Existem dois tipos principais. Escolha o seu e chame a loja mais próxima para alugar muletas ou comprar.",
+    "faq": [
+      [
+        "Vale a pena alugar muletas?",
+        "Para recuperações curtas, sim. O aluguel de muletas custa menos que comprar e você devolve quando não precisar mais."
+      ],
+      [
+        "Qual a diferença entre muleta axilar e canadense?",
+        "A axilar apoia sob a axila; a canadense apoia no antebraço. A escolha depende do tempo de uso, da força nos braços e da orientação do seu médico."
+      ],
+      [
+        "Como regular a altura das muletas?",
+        "A regulagem varia conforme a altura da pessoa. Nossa equipe ajuda a ajustar ao retirar o equipamento na loja."
+      ],
+      [
+        "Posso comprar muletas depois de alugar?",
+        "Consulte as condições de compra no WhatsApp da loja."
+      ],
+      [
+        "Vocês atendem em quais bairros?",
+        "Temos lojas no Leblon, Gávea, Copacabana e Laranjeiras. Escolha a mais próxima ao clicar no botão de WhatsApp."
+      ]
+    ],
+    "lp": {
+      "h1": "Alugue ou compre muletas no Rio de Janeiro",
+      "sub": "Axilar e canadense. Aluguel durante a recuperação ou compra. Fale agora com a loja mais próxima.",
+      "beneficios": [
+        "Aluguel só pelo tempo que você precisar",
+        "Muleta axilar e canadense",
+        "Ajuda para regular a altura"
+      ]
+    },
+    "card_desc": "Axilar e canadense, para apoio durante a recuperação de lesões e cirurgias."
+  },
+  "andadores": {
+    "nome": "Andadores",
+    "ordem": 3,
+    "title": "Andador: Aluguel e Venda no Rio de Janeiro | Ponto Med",
+    "desc": "Aluguel de andador e andador à venda no Rio. Fixo, articulado e com rodas, para mais segurança ao caminhar. Lojas no Leblon, Gávea, Copacabana e Laranjeiras.",
+    "h1": "Andadores: aluguel e venda no Rio de Janeiro",
+    "h2a": "Aluguel de andador",
+    "h2v": "Andador à venda",
+    "modelos_h2": "Modelos de andador: aluguel e venda",
+    "modelos_p": "Cada modelo atende uma necessidade. Veja as diferenças e chame a loja mais próxima.",
+    "faq": [
+      [
+        "Qual andador é melhor para idosos?",
+        "Depende do equilíbrio e da firmeza de cada pessoa. O fixo oferece mais estabilidade; o com rodas é mais ágil. A equipe orienta pelo WhatsApp."
+      ],
+      [
+        "Como funciona o aluguel de andador?",
+        "O aluguel é mensal. Consulte os valores e as condições no WhatsApp da loja."
+      ],
+      [
+        "Como ajustar a altura do andador?",
+        "Com o braço relaxado, o apoio deve ficar na altura do punho. Ajudamos a regular ao retirar o equipamento."
+      ],
+      [
+        "O andador é dobrável?",
+        "Alguns modelos são dobráveis, o que facilita guardar e transportar. Confirme o modelo disponível com a loja."
+      ],
+      [
+        "Vocês vendem andador?",
+        "Sim. Trabalhamos com aluguel e venda de andadores. Consulte valores e modelos no WhatsApp."
+      ]
+    ],
+    "lp": {
+      "h1": "Alugue ou compre andador no Rio de Janeiro",
+      "sub": "Fixo, articulado e com rodas. Aluguel ou compra, com atendimento rápido pelo WhatsApp.",
+      "beneficios": [
+        "Modelos fixo, articulado e com rodas",
+        "Aluguel pelo tempo que precisar",
+        "Orientação para escolher e ajustar"
+      ]
+    },
+    "card_desc": "Fixo, articulado e com rodas, para mais estabilidade e segurança ao caminhar."
+  },
+  "cadeira-de-banho": {
+    "nome": "Cadeira de banho",
+    "ordem": 4,
+    "title": "Cadeira de Banho e Higiênica: Aluguel e Venda no RJ | Ponto Med",
+    "desc": "Aluguel de cadeira de banho e cadeira higiênica à venda no Rio de Janeiro. Mais segurança no banho. Lojas no Leblon, Gávea, Copacabana e Laranjeiras.",
+    "h1": "Cadeira de banho: aluguel e venda no Rio de Janeiro",
+    "h2a": "Aluguel de cadeira de banho",
+    "h2v": "Cadeira de banho à venda",
+    "modelos_h2": "Cadeira de banho e cadeira higiênica: aluguel e venda",
+    "modelos_p": "Fale com a loja mais próxima para saber os modelos disponíveis e escolher o ideal para o seu banheiro.",
+    "faq": [
+      [
+        "Qual a diferença entre cadeira de banho e cadeira higiênica?",
+        "No dia a dia o termo é usado para o mesmo tipo de equipamento, que ajuda no banho e na higiene pessoal. Confirme o modelo ideal com a loja."
+      ],
+      [
+        "Dá para alugar cadeira de banho?",
+        "Sim, o aluguel de cadeira de banho está disponível. Consulte valores no WhatsApp."
+      ],
+      [
+        "A cadeira de banho cabe em qualquer banheiro?",
+        "Depende do espaço. Meça o box e a porta e confirme as medidas do modelo com a loja."
+      ],
+      [
+        "Posso comprar cadeira higiênica?",
+        "Sim. Temos cadeira higiênica à venda. Consulte modelos e valores no WhatsApp."
+      ],
+      [
+        "Vocês entregam?",
+        "Informamos as condições de entrega pelo WhatsApp da loja escolhida."
+      ]
+    ],
+    "lp": null,
+    "card_desc": "Cadeira higiênica para banho e uso no banheiro, com mais segurança."
+  },
+  "botas-ortopedicas-e-imobilizadores": {
+    "nome": "Botas ortopédicas e imobilizadores",
+    "ordem": 5,
+    "title": "Bota Ortopédica e Imobilizador: Aluguel e Venda no RJ | Ponto Med",
+    "desc": "Aluguel de bota ortopédica e imobilizador à venda no Rio. Proteção após entorse, fratura e cirurgia. Lojas no Leblon, Gávea, Copacabana e Laranjeiras.",
+    "h1": "Botas ortopédicas e imobilizadores: aluguel e venda no Rio de Janeiro",
+    "h2a": "Aluguel de bota ortopédica",
+    "h2v": "Bota ortopédica e imobilizador à venda",
+    "modelos_h2": "Bota ortopédica e imobilizador: aluguel e venda",
+    "modelos_p": "Fale com a loja mais próxima para saber o modelo indicado para o seu caso. Sempre siga a orientação do seu médico.",
+    "faq": [
+      [
+        "Posso alugar bota ortopédica?",
+        "Sim. O aluguel de bota ortopédica é uma opção para quem precisa do equipamento por tempo determinado. Consulte os valores no WhatsApp."
+      ],
+      [
+        "Preciso de receita para comprar imobilizador?",
+        "Consulte a loja pelo WhatsApp sobre as condições. Sempre siga a orientação do seu médico."
+      ],
+      [
+        "Como saber o tamanho certo?",
+        "A equipe orienta sobre o tamanho e o ajuste ao retirar o equipamento na loja."
+      ],
+      [
+        "Por quanto tempo devo usar?",
+        "O tempo de uso é definido pelo seu médico ou fisioterapeuta."
+      ],
+      [
+        "Vocês vendem bota ortopédica?",
+        "Sim, trabalhamos com bota ortopédica e imobilizador à venda e para aluguel. Consulte modelos e valores no WhatsApp."
+      ]
+    ],
+    "lp": null,
+    "card_desc": "Proteção e imobilização após entorses, fraturas e cirurgias."
+  }
+}

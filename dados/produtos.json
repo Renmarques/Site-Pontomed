@@ -1,0 +1,380 @@
+{
+  "cadeira-de-rodas": [
+    {
+      "id": "start-c1",
+      "nome": "Cadeira de Rodas Dobrável Start C1 Ottobock",
+      "aba": "Dobráveis",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404648244/cadeira-de-rodas-start-c1-economy-eb4e4e9a-xtysmkdjtr.jpg",
+      "destaques": [
+        "Estrutura leve em alumínio aeronáutico",
+        "Dobramento rápido em duplo X",
+        "Suporta usuários de até 125 kg"
+      ],
+      "peso": "até 125 kg",
+      "aluguel": 600,
+      "venda": 12100,
+      "descricao": "Cadeira de rodas dobrável em alumínio, leve, resistente e confortável, ideal para uso diário, transporte e reabilitação. A estrutura em alumínio não enferruja e o sistema dobrável em X deixa a cadeira compacta para transportar. Conta com pneus maciços antifuro e rodas traseiras com remoção rápida, apoio de braços removível e apoio de pés rebatível.",
+      "contain": false
+    },
+    {
+      "id": "vibe-mobil",
+      "nome": "Cadeira de Rodas Dobrável em Alumínio Vibe Mobil",
+      "aba": "Dobráveis",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404649596/cadeira-de-rodas-mobil-em-est-dio-f4599e1b-g9us6993rk.png",
+      "destaques": [
+        "Estrutura em alumínio leve e resistente",
+        "Sistema dobrável em X simples",
+        "Encosto rebatível para facilitar o transporte"
+      ],
+      "peso": null,
+      "aluguel": 600,
+      "venda": 8000,
+      "descricao": "Cadeira de rodas em alumínio dobrável, leve e resistente, ideal para uso diário com conforto, segurança e praticidade. O sistema dobrável em X simples e o encosto rebatível facilitam o transporte e o armazenamento.",
+      "contain": false
+    },
+    {
+      "id": "motorizada",
+      "nome": "Cadeira de Rodas Motorizada",
+      "aba": "Motorizada e escada",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404703862/cadeira-de-rodas-el-trica-freedom-em-est-dio-6b191935-cfrc15wzaf.png",
+      "destaques": [
+        "Dois motores elétricos de 200W para deslocamento suave",
+        "Estrutura em alumínio aeronáutico leve e dobrável",
+        "Autonomia de até 20 km por carga"
+      ],
+      "peso": null,
+      "aluguel": 850,
+      "venda": 7500,
+      "descricao": "Cadeira de rodas motorizada em alumínio aeronáutico, dobrável e equipada com dois motores elétricos, oferecendo conforto, autonomia e praticidade para uso interno e externo.",
+      "contain": false
+    },
+    {
+      "id": "escaladora",
+      "nome": "Cadeira de Rodas Escaladora",
+      "aba": "Motorizada e escada",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404704098/cadeira-de-evacua-o-ferno-em-destaque-11b73e83-a2ca7vukw2.png",
+      "destaques": [
+        "Sistema de rodas triplas para subida e descida de escadas",
+        "Estrutura leve em alumínio de alta resistência",
+        "Dobrável para facilitar o transporte e armazenamento"
+      ],
+      "peso": null,
+      "aluguel": 500,
+      "venda": 3500,
+      "descricao": "Cadeira de rodas desenvolvida para transporte seguro de pacientes em escadas e superfícies planas, com sistema de rodas triplas que facilita a subida e descida de degraus. A estrutura em alumínio é leve, resistente e dobrável.",
+      "contain": false
+    },
+    {
+      "id": "transferencia-standup",
+      "nome": "Cadeira de Transferência StandUp - Longevitech",
+      "aba": "Transferência",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404706715/homem-e-andador-ortop-dico-pontomed-9768e7cb-tjzujytfny.png",
+      "destaques": [
+        "Apoio ergonômico para pernas e braços",
+        "Plataforma antiderrapante para os pés",
+        "Rodízios com travamento individual"
+      ],
+      "peso": null,
+      "aluguel": 290,
+      "venda": 2900,
+      "descricao": "Cadeira de transferência desenvolvida para facilitar a movimentação de pessoas com mobilidade reduzida, oferecendo mais segurança, conforto e praticidade para o usuário e o cuidador.",
+      "contain": false
+    },
+    {
+      "id": "transferencia-hidraulica",
+      "nome": "Cadeira de Transferência Car Transfer Hidráulica",
+      "aba": "Transferência",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404706940/auxiliar-de-transfer-ncia-hospitalar-d2befb0d-a3qbkq51bq.png",
+      "destaques": [
+        "Sistema de elevação hidráulica com acionamento por pedal",
+        "Facilita a transferência para dentro e fora do veículo",
+        "Rodízios com travas para maior estabilidade"
+      ],
+      "peso": null,
+      "aluguel": 290,
+      "venda": null,
+      "descricao": "Cadeira de transferência hidráulica desenvolvida para facilitar o embarque e desembarque de pessoas com mobilidade reduzida em veículos, oferecendo mais segurança e conforto.",
+      "contain": false
+    },
+    {
+      "id": "transferencia-flat",
+      "nome": "Cadeira de Transferência Flat Premium - Longevitech",
+      "aba": "Transferência",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404707893/cadeira-higi-nica-laranja-em-est-dio-6305d5af-arz9wy55rm.png",
+      "destaques": [
+        "Pode ser usada como cadeira, na posição plana e como cadeira comadre",
+        "Facilita transferências e procedimentos de higiene",
+        "Reduz o esforço físico do cuidador"
+      ],
+      "peso": null,
+      "aluguel": 350,
+      "venda": null,
+      "descricao": "Cadeira de transferência multifuncional que pode ser utilizada como cadeira, na posição plana e como cadeira comadre, oferecendo mais segurança e praticidade nos cuidados diários. Facilita transferências e procedimentos de higiene e reduz o esforço físico do cuidador.",
+      "contain": false
+    },
+    {
+      "id": "transferencia-banho",
+      "nome": "Cadeira de Transferência e Banho",
+      "aba": "Transferência",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404708451/cadeira-higi-nica-amarela-sobre-rod-zios-cb8a603b-3d5t0ecf6n.png",
+      "destaques": [
+        "Facilita a transferência até o vaso sanitário",
+        "Altura do assento regulável",
+        "Assento acolchoado com capa removível"
+      ],
+      "peso": null,
+      "aluguel": 290,
+      "venda": null,
+      "descricao": "Cadeira multifuncional para transferência, banho e higiene, desenvolvida para proporcionar mais segurança, conforto e praticidade ao usuário e ao cuidador.",
+      "contain": false
+    },
+    {
+      "id": "transferencia-geral",
+      "nome": "Cadeira de Transferência",
+      "aba": "Transferência",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/401599370/37ee6d61500d45cc9f8725212bca8f25-29hww6lrc9.png",
+      "destaques": [
+        "Ideal para transferências entre cadeira, sofá e banheiro",
+        "Reduz o esforço físico do cuidador",
+        "Mais conforto, estabilidade e autonomia para o paciente"
+      ],
+      "peso": null,
+      "aluguel": null,
+      "venda": null,
+      "descricao": "A cadeira de transferência foi desenvolvida para proporcionar mais segurança e praticidade no cuidado diário. É ideal para transferências entre cadeira, sofá e banheiro, reduzindo o esforço físico do cuidador. Mais conforto, estabilidade e autonomia para o paciente.",
+      "contain": false
+    }
+  ],
+  "cadeira-de-banho": [
+    {
+      "id": "higienica",
+      "nome": "Cadeira Higiênica",
+      "aba": "Higiênicas",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404703144/cadeira-higi-nica-preta-com-assento-branco-ef59537c-0uqf8dylto.png",
+      "destaques": [
+        "Estrutura em aço carbono com pintura epóxi",
+        "Assento sanitário removível",
+        "Freios bilaterais"
+      ],
+      "peso": null,
+      "aluguel": 90,
+      "venda": 400,
+      "descricao": "Cadeira higiênica em aço carbono desenvolvida para proporcionar segurança, conforto e praticidade durante a higiene pessoal de pessoas com mobilidade reduzida.",
+      "contain": false
+    },
+    {
+      "id": "higienica-obeso",
+      "nome": "Cadeira Higiênica Obeso",
+      "aba": "Higiênicas",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404703516/cadeira-higi-nica-preta-com-assento-branco-obeso-6378e73d-tlprbtcn7t.png",
+      "destaques": [
+        "Estrutura reforçada em aço carbono",
+        "Acoplável ao vaso sanitário",
+        "Freios bilaterais dianteiros"
+      ],
+      "peso": null,
+      "aluguel": 110,
+      "venda": 900,
+      "descricao": "Cadeira higiênica para obeso desenvolvida para proporcionar segurança, conforto e praticidade durante a higiene pessoal e a utilização do vaso sanitário por pessoas com mobilidade reduzida.",
+      "contain": false
+    },
+    {
+      "id": "verona",
+      "nome": "Cadeira Para Higienização - Verona",
+      "aba": "Higiênicas",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/198414120/307fdd7ad8b44d21828f956f80a6b578-fu2v3iluq0.png",
+      "destaques": [
+        "Estrutura dobrável em alumínio",
+        "Assento almofadado com abertura frontal",
+        "Coletor com tampa"
+      ],
+      "peso": "até 110 kg",
+      "aluguel": null,
+      "venda": null,
+      "descricao": "Cadeira para higienização dobrável, uma cadeira de banho muito prática com recursos que fazem a diferença na hora da higienização. Com estrutura dobrável em alumínio, é fácil de guardar e transportar. Tem assento almofadado com abertura frontal, apoios articulados para os pés, quatro rodízios (os dois traseiros com freio) e coletor com tampa. Largura total de 64 cm, altura do assento de 44,5 a 52 cm e capacidade máxima de 110 kg.",
+      "contain": false
+    },
+    {
+      "id": "banho-4-em-1",
+      "nome": "Cadeira de Banho",
+      "aba": "Banho",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404572049/cadeira-higi-nica-azul-com-rodas-260c9e20-at0p6z9v65.png",
+      "destaques": [
+        "Função 4 em 1: banho, vaso sanitário, higiene e transporte",
+        "Estrutura leve em alumínio antiferrugem",
+        "Apoios de braços escamoteáveis"
+      ],
+      "peso": null,
+      "aluguel": null,
+      "venda": 700,
+      "descricao": "Cadeira de banho multifuncional em alumínio, leve, resistente e desenvolvida para oferecer mais segurança e praticidade durante o banho, a higiene e o transporte.",
+      "contain": false
+    },
+    {
+      "id": "d60",
+      "nome": "Cadeira de Banho D60 Dellamed",
+      "aba": "Banho",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/197645859/cadeira-higi-nica-azul-com-rodas-3a87da0d-1mpvw9qvmu.png",
+      "destaques": [
+        "Estrutura em alumínio leve e resistente",
+        "Suporta usuários de até 150 kg",
+        "Função 4 em 1: banho, higiene, vaso sanitário e transporte"
+      ],
+      "peso": "até 150 kg",
+      "aluguel": null,
+      "venda": 4900,
+      "descricao": "Cadeira de banho 4 em 1 em alumínio antiferrugem, desmontável, com rodas, comadre removível e capacidade para até 150 kg. Pode ser usada como cadeira de banho, cadeira higiênica, sobre o vaso sanitário e para transporte interno. Tem assento almofadado impermeável, braços escamoteáveis, apoios de pés removíveis e quatro rodízios com travas.",
+      "contain": false
+    }
+  ],
+  "muletas": [
+    {
+      "id": "axilar",
+      "nome": "Muleta Axilar",
+      "aba": "Axilar",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404640850/par-de-muletas-ortop-dicas-em-est-dio-96e9f869-bg0mb6qree.png",
+      "destaques": [
+        "Múltiplos níveis de regulagem",
+        "Apoios emborrachados",
+        "Ponteiras antiderrapantes"
+      ],
+      "peso": null,
+      "aluguel": 120,
+      "venda": 270,
+      "descricao": "Muleta axilar em alumínio para proporcionar estabilidade e alívio de peso nos membros inferiores.",
+      "contain": false
+    },
+    {
+      "id": "canadense",
+      "nome": "Muleta Canadense de Alumínio",
+      "aba": "Canadense",
+      "img": "https://lojadacamahospitalar.com.br/images/muletacanadense.png",
+      "destaques": [
+        "10 níveis de regulagem de altura",
+        "Estrutura leve e resistente em alumínio anodizado",
+        "Apoio de mão anatômico e ponteira antiderrapante"
+      ],
+      "peso": null,
+      "aluguel": 50,
+      "venda": 160,
+      "descricao": "Muleta canadense leve e ajustável, oferece maior conforto durante a locomoção.",
+      "contain": true
+    }
+  ],
+  "andadores": [
+    {
+      "id": "rodas-4",
+      "nome": "Andador Com 4 Rodas",
+      "aba": "Com rodas",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404640143/andador-com-rodas-em-fundo-azul-pastel-482a6f10-todfzsmvlo.png",
+      "destaques": [
+        "Alumínio, com ajuste de altura",
+        "Freios e cesto",
+        "Mais segurança e independência"
+      ],
+      "peso": null,
+      "aluguel": 200,
+      "venda": 810,
+      "descricao": "Andador em alumínio com 4 rodas, ajuste de altura, freios e cesto, desenvolvido para proporcionar mais segurança, conforto e independência na locomoção.",
+      "contain": false
+    },
+    {
+      "id": "rodas-3",
+      "nome": "Andador com 3 Rodas",
+      "aba": "Com rodas",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404639906/andador-rollator-moderno-em-fundo-azul-claro-bb3a4caa-0r4pqj4qo8.png",
+      "destaques": [
+        "Estrutura leve e resistente em alumínio",
+        "Sistema dobrável para transporte e armazenamento",
+        "Regulagem de altura entre 82 e 97 cm"
+      ],
+      "peso": null,
+      "aluguel": 120,
+      "venda": 670,
+      "descricao": "Andador com rodas em alumínio, dobrável e com ajuste de altura, desenvolvido para proporcionar mais segurança, mobilidade e praticidade no dia a dia.",
+      "contain": false
+    },
+    {
+      "id": "articulado",
+      "nome": "Andador Alumínio Dobrável Articulado",
+      "aba": "Articulados",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404639724/andador-de-alum-nio-em-fundo-azul-claro-0333ff83-1gwkoota96.png",
+      "destaques": [
+        "Sete níveis de regulagem",
+        "Estrutura leve e dobrável",
+        "Ponteiras de borracha"
+      ],
+      "peso": null,
+      "aluguel": 60,
+      "venda": 230,
+      "descricao": "Andador leve, articulado e dobrável para oferecer estabilidade e suporte ao caminhar.",
+      "contain": false
+    },
+    {
+      "id": "apoio-joelho",
+      "nome": "Andador Com Apoio para Joelho",
+      "aba": "Com apoio",
+      "img": "https://lojadacamahospitalar.com.br/images/andadorJ.png",
+      "destaques": [
+        "Apoio confortável para o joelho em poliuretano",
+        "Guidão e apoio com regulagem de altura",
+        "Freios para maior controle e segurança"
+      ],
+      "peso": null,
+      "aluguel": 180,
+      "venda": null,
+      "descricao": "Andador com apoio para joelho, desenvolvido para proporcionar mobilidade, conforto e independência durante a recuperação de lesões nos membros inferiores.",
+      "contain": true
+    },
+    {
+      "id": "apoio-antebraco",
+      "nome": "Andador Com Apoio de Antebraço",
+      "aba": "Com apoio",
+      "img": "https://lojadacamahospitalar.com.br/images/andadorbraco.png",
+      "destaques": [
+        "Apoio ergonômico para os antebraços",
+        "Assento almofadado e removível para descanso",
+        "Estrutura dobrável, leve e resistente"
+      ],
+      "peso": null,
+      "aluguel": 180,
+      "venda": null,
+      "descricao": "Andador para reabilitação com apoio ergonômico de antebraço, assento removível e estrutura dobrável, oferecendo mais estabilidade, conforto e segurança durante a locomoção.",
+      "contain": true
+    },
+    {
+      "id": "suporte-antebraco",
+      "nome": "Suporte para Antebraço para Andador Posterior - Mercur",
+      "aba": "Com apoio",
+      "img": "https://lojadacamahospitalar.com.br/images/suporte-antebraco-andador.png",
+      "destaques": [
+        "Design anatômico para maior conforto",
+        "4 níveis de regulagem de altura",
+        "Cintas ajustáveis com fechos aderentes"
+      ],
+      "peso": null,
+      "aluguel": 200,
+      "venda": null,
+      "descricao": "Suporte anatômico para antebraço desenvolvido para proporcionar maior estabilidade, conforto e segurança durante o uso do andador posterior.",
+      "contain": true
+    }
+  ],
+  "botas-ortopedicas-e-imobilizadores": [
+    {
+      "id": "bota-longa",
+      "nome": "Bota imobilizadora Hidrolight Standard longa",
+      "aba": "Botas",
+      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/181310158/ae47e029f3.jpg",
+      "destaques": [
+        "Estofada, com regulagem por fechos aderentes",
+        "Dois protetores de maléolo removíveis",
+        "Estabiliza e ajuda na recuperação dos membros inferiores"
+      ],
+      "peso": null,
+      "aluguel": null,
+      "venda": null,
+      "descricao": "A bota imobilizadora Hidrolight Standard longa é excelente para a estabilização e a recuperação dos membros inferiores. Confeccionada em material estofado de qualidade, proporciona uma recuperação confortável e segura, com regulagem por fechos aderentes. Possui dois protetores de maléolos removíveis que permitem um melhor encaixe no tornozelo.",
+      "contain": true
+    }
+  ]
+}

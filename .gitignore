@@ -1,0 +1,9 @@
+# arquivos locais
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# foto original do topo (a versao otimizada ja esta em site/assets/img/hero.webp)
+hero.jpg.jpeg
