@@ -4,7 +4,7 @@ window.PONTOMED = {
     "nome": "Ponto Med",
     "dominio": "https://seudominio.com.br",
     "gtmId": "GTM-XXXXXXX",
-    "indexar": true,
+    "indexar": false,
     "telefone": "(21) 2042-6767",
     "telefoneLink": "+552120426767",
     "razaoSocial": "COPAMED COMERCIO E ALUGUEL DE MATERIAIS MEDICOS HOSPITALARES LTDA",
