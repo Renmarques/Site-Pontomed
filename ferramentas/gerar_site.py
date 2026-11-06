@@ -603,6 +603,9 @@ for u, pr in urls:
     sm += f"  <url><loc>{DOM}{u}</loc><lastmod>{HOJE}</lastmod><priority>{pr}</priority></url>\n"
 sm += "</urlset>\n"
 open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8", newline="\n").write(sm)
+# Netlify procura 404.html na raiz; a Hostinger usa /404/index.html (ver .htaccess)
+shutil.copyfile(os.path.join(SITE, "404", "index.html"), os.path.join(SITE, "404.html"))
+
 # robots.txt
 if INDEXAR:
     rb = "User-agent: *\nAllow: /\nDisallow: /lp/\n\nSitemap: " + DOM + "/sitemap.xml\n"
