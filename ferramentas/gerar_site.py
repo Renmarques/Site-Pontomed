@@ -306,6 +306,8 @@ def lp_page(slug, p):
 
 def loja_page(lid, info):
     nome = LOJA_NOMES[lid]; path = f"/loja-{lid}"
+    _L = next(l for l in LOJAS_JSON if l["id"] == lid)
+    _tel = re.sub(r"^55(\d{2})(\d{5})(\d{4})$", r"(\1) \2-\3", str(_L["whatsapp"]))
     crumb = [("Início","/"),("Lojas","/lojas"),(f"Loja {nome}",path)]
     title = f"Materiais Hospitalares {info['prep_titulo']}: Aluguel e Venda | Ponto Med"
     desc = f"Loja Ponto Med {info['prep_titulo']}: aluguel e venda de cadeira de rodas, muletas, andadores e mais. Endereço, horário, mapa e WhatsApp da loja."
@@ -329,9 +331,9 @@ def loja_page(lid, info):
     </div>
     <div class="card" style="border:3px solid var(--marca);border-radius:16px;padding:24px">
       <h2 style="font-size:1.4rem">Loja {nome}</h2>
-      <p><strong>Endereço:</strong> <span data-loja-campo="endereco">[PREENCHER]</span></p>
-      <p><strong>Horário:</strong> <span data-loja-campo="horario">[PREENCHER]</span></p>
-      <p><strong>WhatsApp da loja:</strong> <span data-loja-campo="whatsapp">[PREENCHER]</span></p>
+      <p><strong>Endereço:</strong> <span data-loja-campo="endereco">{_L["endereco"]}</span></p>
+      <p><strong>Horário:</strong> <span data-loja-campo="horario">{_L["horario"]}</span></p>
+      <p><strong>WhatsApp da loja:</strong> <span data-loja-campo="whatsapp">{_tel}</span></p>
       <p><strong>Telefone:</strong> <a href="tel:+552120426767" data-track="telefone" data-loja="{lid}">(21) 2042-6767</a></p>
       <div style="display:grid;gap:10px;margin-top:14px">
         <button class="btn btn--block" data-wa-loja="{lid}" data-tipo="duvida">Falar com a loja {nome} no WhatsApp</button>
