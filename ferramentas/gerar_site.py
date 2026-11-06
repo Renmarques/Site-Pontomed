@@ -124,7 +124,7 @@ def page(path, title, desc, body, schema="", full=True, noindex=False, canon_pat
     html += (FOOTER if full else '<footer class="rodape"><div class="wrap"><p>© <span data-ano></span> Ponto Med</p></div></footer>') + f"\n{SCRIPTS}\n</body>\n</html>\n"
     out = os.path.join(SITE, path.strip("/"), "index.html") if path != "/" else os.path.join(SITE, "index.html")
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    open(out, "w", encoding="utf-8").write(html)
+    open(out, "w", encoding="utf-8", newline="\n").write(html)
     if sitemap and not noindex:
         SITEMAP.append((path, priority))
 
@@ -172,7 +172,7 @@ def escrever_data_js():
     corpo = "window.PONTOMED = " + json.dumps({"site": site, "depoimentos": INFO.get("depoimentos", []), "lojas": lojas, "produtos": produtos}, ensure_ascii=False, indent=2) + ";\n"
     cab = "/* ARQUIVO GERADO por ferramentas/gerar_site.py a partir de dados/*.json. NAO EDITE AQUI: edite os arquivos da pasta dados/ e rode: python build.py */\n"
     os.makedirs(os.path.join(SITE, "assets", "js"), exist_ok=True)
-    with open(os.path.join(SITE, "assets", "js", "data.js"), "w", encoding="utf8") as f:
+    with open(os.path.join(SITE, "assets", "js", "data.js"), "w", encoding="utf8", newline="\n") as f:
         f.write(cab + corpo)
 
 escrever_data_js()
@@ -602,11 +602,11 @@ sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps
 for u, pr in urls:
     sm += f"  <url><loc>{DOM}{u}</loc><lastmod>{HOJE}</lastmod><priority>{pr}</priority></url>\n"
 sm += "</urlset>\n"
-open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8").write(sm)
+open(os.path.join(SITE, "sitemap.xml"), "w", encoding="utf-8", newline="\n").write(sm)
 # robots.txt
 if INDEXAR:
     rb = "User-agent: *\nAllow: /\nDisallow: /lp/\n\nSitemap: " + DOM + "/sitemap.xml\n"
 else:
     rb = "User-agent: *\nDisallow: /\n"
-open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8").write(rb)
+open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8", newline="\n").write(rb)
 print(len(urls), "urls no sitemap")
