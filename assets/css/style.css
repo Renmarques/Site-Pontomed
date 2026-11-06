@@ -1,0 +1,466 @@
+/* Ponto Med - CSS unico. Cores do site atual (pontomed.com): azul #0490D1, texto #313131, fundos branco e #F5F5F5, fonte Roboto. */
+:root{
+  --marca:#0490d1;
+  --marca-escura:#0a6a9a;
+  --marca-clara:#e8f5fc;
+  --texto:#313131;
+  --suave:#5f6b76;
+  --fundo:#f5f7f9;
+  --borda:#e1e7ec;
+  --wa:#21c45d;
+  --wa-escuro:#128c4a;
+  --raio:16px;
+  --sombra:0 2px 10px rgba(20,40,60,.07);
+  --sombra-forte:0 12px 30px rgba(20,40,60,.14);
+  --max:1160px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:18px/1.65 Roboto,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--texto);background:#fff;-webkit-font-smoothing:antialiased}
+img,svg{max-width:100%;height:auto}
+a{color:var(--marca-escura)}
+h1,h2,h3{line-height:1.2;color:var(--texto);margin:0 0 .55em;font-weight:800;letter-spacing:-.01em}
+h1{font-size:clamp(2rem,5vw,3rem)}
+h2{font-size:clamp(1.6rem,3.4vw,2.2rem)}
+h3{font-size:1.15rem}
+p{margin:0 0 1em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+section{padding:64px 0}
+@media(max-width:700px){section{padding:44px 0}}
+.alt{background:var(--fundo)}
+.centro{text-align:center}
+.lead{color:var(--suave);font-size:1.12rem;max-width:700px}
+.sec-head{text-align:center;max-width:740px;margin:0 auto 36px}
+.sec-head .lead{margin:0 auto}
+.sec-head h2{margin-bottom:.4em}
+:focus-visible{outline:3px solid #ffb703;outline-offset:2px}
+.skip{position:absolute;left:-999px}
+.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:99}
+.tag{display:inline-block;background:var(--marca-clara);color:var(--marca-escura);font-weight:700;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:99px;margin-bottom:12px}
+
+/* Cabecalho */
+.topo{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--borda)}
+.topo .wrap{display:flex;align-items:center;justify-content:space-between;min-height:88px;gap:12px}
+.logo{font-weight:900;font-size:1.65rem;color:var(--marca);text-decoration:none;letter-spacing:-.5px;display:flex;align-items:center}
+.logo b{color:var(--texto)}
+.logo img{display:block;height:64px;width:auto}
+@media(max-width:900px){.logo img{height:52px}}
+.menu-btn{display:none;font-size:1rem;font-weight:700;padding:10px 16px;border:2px solid var(--marca);background:#fff;border-radius:12px;color:var(--marca-escura);font-family:inherit}
+#menu{display:flex;gap:2px;align-items:center}
+#menu a{padding:10px 14px;text-decoration:none;color:var(--texto);font-weight:500;border-radius:10px}
+#menu a:hover{background:var(--marca-clara)}
+#menu a.cta{background:var(--wa-escuro);color:#fff;font-weight:700;margin-left:8px;padding:10px 18px}
+#menu a.cta:hover{filter:brightness(1.1)}
+@media(max-width:900px){
+  .menu-btn{display:block}
+  #menu{display:none;position:absolute;top:88px;left:0;right:0;background:#fff;border-bottom:1px solid var(--borda);flex-direction:column;align-items:stretch;padding:8px 20px 18px;box-shadow:var(--sombra-forte)}
+  #menu.is-open{display:flex}
+  #menu a.cta{margin:8px 0 0;text-align:center}
+}
+
+/* Botoes */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:14px 28px;border-radius:12px;font-size:1.05rem;font-weight:700;text-decoration:none;border:2px solid transparent;cursor:pointer;color:#fff;background:var(--wa-escuro);text-align:center;font-family:inherit;transition:filter .15s,transform .15s}
+.btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.btn--aluguel{background:var(--marca-escura)}
+.btn--venda{background:var(--texto)}
+.btn--ghost{background:#fff;color:var(--marca-escura);border-color:var(--marca)}
+.btn--branco{background:#fff;color:var(--marca-escura)}
+.btn--block{display:flex;width:100%}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+
+/* Hero da Home */
+.hero{background:linear-gradient(135deg,#0a6a9a 0%,#0490d1 70%,#35aee3 100%);color:#fff;padding:56px 0 48px;overflow:hidden}
+.hero-grid{display:grid;gap:32px;grid-template-columns:1.1fr .9fr;align-items:center}
+.hero h1,.hero p{color:#fff}
+.hero h1{margin-bottom:.45em}
+.hero p.lead{color:rgba(255,255,255,.92);font-size:1.2rem;max-width:560px}
+.hero .btn--ghost{background:transparent;border-color:#fff;color:#fff}
+.hero-art img{display:block;width:100%;max-width:520px;margin:0 auto}
+.selos{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0;padding:0;list-style:none}
+.selos li{background:rgba(255,255,255,.18);padding:8px 16px;border-radius:99px;font-weight:500;font-size:.95rem}
+@media(max-width:860px){
+  .hero{padding:40px 0 32px}
+  .hero-grid{grid-template-columns:1fr}
+  .hero-art{order:-1}
+  .hero-art img{max-width:300px}
+}
+
+/* Topo das paginas internas */
+.crumbs-bar{background:var(--marca-clara)}
+.crumbs{font-size:.9rem;padding:16px 0 4px;color:var(--suave)}
+.crumbs ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0}
+.crumbs li+li::before{content:"›";margin-right:6px}
+.hero-soft{background:var(--marca-clara);padding:12px 0 52px}
+@media(max-width:700px){.hero-soft{padding-bottom:36px}}
+
+/* Cards de produto */
+.grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fill,minmax(270px,1fr))}
+.pcard{display:flex;flex-direction:column;background:#fff;border:1px solid var(--borda);border-radius:var(--raio);overflow:hidden;box-shadow:var(--sombra);transition:box-shadow .2s,transform .2s}
+.pcard:hover{box-shadow:var(--sombra-forte);transform:translateY(-3px)}
+.pcard .info{display:flex;flex-direction:column;gap:10px;padding:20px;flex:1}
+.pcard h3{margin:0}
+.pcard h3 a{color:var(--texto);text-decoration:none}
+.pcard h3 a:hover{color:var(--marca-escura)}
+.pcard p{margin:0;color:var(--suave);font-size:.98rem}
+.pimg{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;padding:12px;border-bottom:1px solid var(--borda)}
+.linha{display:flex;justify-content:space-between;gap:10px;align-items:baseline;font-size:.98rem;border-radius:10px;padding:9px 12px}
+.linha b{font-weight:700}
+.linha span{font-weight:700;text-align:right}
+.linha--aluguel{background:var(--marca-clara);color:var(--marca-escura)}
+.linha--venda{background:#eceff2;color:var(--texto)}
+.sem-preco{font-weight:500!important;color:var(--suave);font-size:.88rem}
+.checks{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:.95rem}
+.checks li{padding-left:26px;position:relative}
+.checks li::before{content:"✓";position:absolute;left:0;color:var(--marca);font-weight:900}
+.pcard .acoes{margin-top:auto;display:grid;gap:8px;padding-top:8px}
+.ph{display:flex;align-items:center;justify-content:center;text-align:center;background:var(--fundo);color:var(--suave);border:2px dashed #c9d2da;border-radius:var(--raio);aspect-ratio:4/3;padding:12px;font-size:.9rem}
+
+/* Lojas */
+.loja-card{display:flex;flex-direction:column;gap:6px;border:1px solid var(--borda);border-radius:var(--raio);padding:22px;text-decoration:none;color:var(--texto);background:#fff;box-shadow:var(--sombra);transition:box-shadow .2s,transform .2s}
+.loja-card:hover{box-shadow:var(--sombra-forte);transform:translateY(-3px);border-color:var(--marca)}
+.loja-card strong{font-size:1.25rem}
+.loja-card span{color:var(--suave);font-size:.95rem}
+.loja-card em{font-style:normal;font-weight:700;color:var(--marca-escura);margin-top:6px}
+
+/* Blocos aluguel / venda */
+.duo{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:stretch}
+.bloco{border-radius:var(--raio);overflow:hidden;display:flex;flex-direction:column;background:#fff;box-shadow:var(--sombra)}
+.bloco header{padding:16px 24px;color:#fff;font-weight:900;letter-spacing:.1em;font-size:1.05rem}
+.bloco .corpo{padding:24px;display:flex;flex-direction:column;gap:14px;flex:1}
+.bloco h2{margin:0;font-size:1.35rem}
+.bloco p{margin:0}
+.bloco--aluguel{border:3px solid var(--marca)}
+.bloco--aluguel header{background:var(--marca-escura)}
+.bloco--venda{border:3px solid var(--texto)}
+.bloco--venda header{background:var(--texto)}
+.precos{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.precos li{display:flex;justify-content:space-between;gap:12px;border-radius:10px;padding:11px 14px;font-weight:500;background:var(--marca-clara)}
+.precos li span{font-weight:700;text-align:right}
+.preco-grande{font-size:1.6rem;font-weight:900}
+.bloco .btn{margin-top:auto}
+
+/* Comparativo, passos, numeros */
+.comparar{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.comparar .card{background:#fff;border-radius:var(--raio);padding:26px;box-shadow:var(--sombra)}
+.comparar ul{margin:.4em 0 0;padding-left:1.2em}
+.comparar li{margin-bottom:.35em}
+.comparar .a{border:3px solid var(--marca)}
+.comparar .v{border:3px solid var(--texto)}
+.comparar .a h3{color:var(--marca-escura)}
+.passos{counter-reset:p;display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));list-style:none;padding:0;margin:0}
+.passos li{counter-increment:p;text-align:center;padding:8px 12px}
+.passos li::before{content:counter(p);display:flex;width:60px;height:60px;border-radius:50%;background:var(--marca);color:#fff;font-weight:900;font-size:1.4rem;align-items:center;justify-content:center;margin:0 auto 14px}
+.passos p{color:var(--suave);margin:0}
+.stats{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.stat{background:#fff;border:1px solid var(--borda);border-radius:var(--raio);padding:28px;text-align:center;box-shadow:var(--sombra)}
+.stat strong{display:block;font-size:2.4rem;font-weight:900;color:var(--marca-escura);line-height:1.1}
+.stat span{color:var(--suave)}
+.aviso{background:#fff3c4;border:1px solid #e6c84c;border-radius:8px;padding:2px 10px;font-size:.88rem;display:inline-block;color:#5a4a00}
+
+details{border:1px solid var(--borda);border-radius:14px;margin-bottom:12px;background:#fff;box-shadow:var(--sombra)}
+summary{cursor:pointer;padding:18px 22px;font-weight:700;list-style-position:inside}
+details[open] summary{color:var(--marca-escura)}
+details p{margin:0;padding:0 22px 20px;color:var(--suave)}
+
+.cta-final{background:linear-gradient(135deg,#0a6a9a,#0490d1);color:#fff;text-align:center}
+.cta-final h2,.cta-final p{color:#fff}
+.rodape{background:#1f2a33;color:#c9d3db;padding:48px 0 32px;font-size:.95rem}
+.rodape a{color:#fff}
+.rodape .cols{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));margin-bottom:24px}
+.rodape h3{color:#fff;font-size:1rem}
+.rodape ul{list-style:none;margin:0;padding:0;line-height:2}
+.rodape p{margin:0 0 .5em}
+
+/* WhatsApp: flutuante + modal */
+.wa-fab{position:fixed;right:16px;bottom:16px;z-index:60;display:flex;align-items:center;gap:8px;background:var(--wa);color:#fff;border:0;border-radius:99px;padding:15px 22px;font-weight:700;font-size:1.05rem;box-shadow:0 6px 18px rgba(0,0,0,.28);cursor:pointer;font-family:inherit}
+@media(max-width:560px){.wa-fab span{display:none}.wa-fab{padding:17px}}
+.wa-modal{border:0;border-radius:20px;padding:26px;width:min(560px,94vw);max-height:90vh}
+.wa-modal::backdrop{background:rgba(0,0,0,.55)}
+.wa-modal h2{margin:0 0 6px;padding-right:40px;font-size:1.45rem}
+.wa-modal__sub{margin:0 0 16px;color:var(--suave)}
+.wa-modal__close{position:absolute;right:12px;top:10px;margin:0}
+.wa-modal__close button{font-size:2rem;line-height:1;background:none;border:0;cursor:pointer;padding:6px 12px}
+.wa-modal__list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.wa-modal__loja{display:flex;flex-direction:column;gap:2px;padding:14px 16px;border:2px solid var(--wa);border-radius:14px;text-decoration:none;color:var(--texto);min-height:60px}
+.wa-modal__loja:hover{background:#e9f9ef}
+.wa-modal__loja strong{font-size:1.2rem;color:var(--wa-escuro)}
+.wa-modal__loja span{font-size:.95rem;color:var(--suave)}
+
+.lp-topo{background:#fff;border-bottom:1px solid var(--borda);padding:12px 0}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pcard,.loja-card,.btn{transition:none}}
+
+/* Chamada das lojas no topo da Home */
+.hero-lojas{margin-top:30px;padding-top:22px;border-top:1px solid rgba(255,255,255,.28);max-width:560px}
+.hero-lojas__titulo{display:block;font-weight:700;font-size:.95rem;letter-spacing:.02em;margin-bottom:10px;color:#fff}
+.hero-lojas__lista{display:flex;flex-wrap:wrap;gap:10px}
+.hero-lojas__lista a{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--marca-escura);font-weight:700;text-decoration:none;padding:10px 18px;border-radius:99px;font-size:1rem;box-shadow:0 2px 8px rgba(0,0,0,.15);transition:transform .15s}
+.hero-lojas__lista a::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--wa)}
+.hero-lojas__lista a:hover{transform:translateY(-2px)}
+
+/* Categorias (Home e /produtos) */
+.tiles{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.tile{display:flex;flex-direction:column;align-items:center;text-align:center;text-decoration:none;color:var(--texto);background:var(--fundo);border:2px solid transparent;border-radius:22px;padding:16px 16px 22px;transition:transform .2s,box-shadow .2s,border-color .2s,background .2s}
+.tile:hover{transform:translateY(-4px);box-shadow:var(--sombra-forte);border-color:var(--marca);background:#fff}
+.tile__img{width:100%;aspect-ratio:1/1;background:#fff;border-radius:16px;overflow:hidden;margin-bottom:16px}
+.tile__img img{display:block;width:100%;height:100%;object-fit:cover}
+.tile h3{margin:0 0 6px;font-size:1.15rem}
+.tile__go{color:var(--marca-escura);font-weight:700;font-size:.95rem}
+.tile__go b{display:inline-block;transition:transform .2s}
+.tile:hover .tile__go b{transform:translateX(4px)}
+
+/* Lista de modelos */
+.grid--modelos{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.mcard{position:relative;display:flex;flex-direction:column;text-decoration:none;color:var(--texto);background:#fff;border:1px solid var(--borda);border-radius:20px;padding:14px 14px 18px;transition:transform .2s,box-shadow .2s,border-color .2s}
+.mcard:hover{transform:translateY(-4px);box-shadow:var(--sombra-forte);border-color:var(--marca)}
+.mcard__tag{position:absolute;top:22px;left:22px;z-index:1;background:var(--marca-escura);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:99px}
+.mcard__img{background:#fff;border-radius:14px;aspect-ratio:1/1;overflow:hidden;margin-bottom:14px;border:1px solid var(--borda)}
+.mcard__img img{display:block;width:100%;height:100%;object-fit:cover}
+.mcard h3{font-size:1.05rem;line-height:1.3;margin:0 0 12px;min-height:2.7em}
+.mcard__precos{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.mcard__precos>div{background:var(--fundo);border-radius:10px;padding:8px 10px;display:flex;flex-direction:column;gap:2px}
+.mcard__precos small{font-size:.72rem;color:var(--suave);text-transform:uppercase;letter-spacing:.04em}
+.mcard__precos span{font-weight:800;font-size:.98rem;color:var(--texto)}
+.mcard__precos .sem-preco{font-weight:600!important;font-size:.9rem;color:var(--suave)}
+.mcard__btn{margin-top:auto;text-align:center;background:var(--marca-escura);color:#fff;font-weight:700;padding:12px;border-radius:12px}
+.mcard:hover .mcard__btn{filter:brightness(1.1)}
+
+/* Pagina de modelo */
+.mhero{display:grid;gap:36px;grid-template-columns:1fr 1.1fr;align-items:center}
+.mhero__img{background:#fff;border-radius:24px;padding:24px;box-shadow:var(--sombra)}
+.mhero__img img{display:block;width:100%;height:auto;max-height:480px;object-fit:contain}
+.checks--grande{font-size:1.05rem;gap:8px;margin:14px 0}
+@media(max-width:820px){.mhero{grid-template-columns:1fr}}
+
+/* Foto do banner (assets/img/hero.webp|jpg|png): fica de fundo, no lado direito, com o texto na esquerda */
+.hero.com-foto{position:relative;display:flex;align-items:center;padding:48px 0;background:#0a6a9a}
+.hero.com-foto::before{content:"";position:absolute;top:0;right:0;bottom:0;width:74%;background:var(--hero-foto) 100% 50%/auto 100% no-repeat;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 30%);mask-image:linear-gradient(90deg,transparent 0,#000 30%)}
+.hero.com-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,76,118,.55) 0%,rgba(7,76,118,0) 55%)}
+.hero.com-foto .wrap{position:relative;z-index:1;width:100%}
+.hero.com-foto .hero-grid{grid-template-columns:minmax(0,540px)}
+.hero.com-foto h1{font-size:clamp(1.9rem,3.4vw,2.6rem)}
+.hero.com-foto p.lead{font-size:1.1rem}
+.hero.com-foto .selos,.hero.com-foto .hero-cta{margin-top:20px}
+.hero.com-foto .hero-lojas{margin-top:22px;padding-top:16px}
+.hero.com-foto .hero-art{display:none}
+.hero.com-foto h1{text-shadow:0 2px 14px rgba(0,50,90,.35)}
+@media(max-width:860px){
+  .hero.com-foto{min-height:0;display:block;padding:40px 0 32px}
+  .hero.com-foto::before,.hero.com-foto::after{display:none}
+  .hero.com-foto .hero-grid{grid-template-columns:1fr}
+  .hero.com-foto .hero-art{display:block;order:2}
+  .hero-art img.foto{max-width:none;width:100%;aspect-ratio:4/3;object-fit:cover;object-position:62% 50%;border-radius:20px;box-shadow:0 14px 30px rgba(0,0,0,.25)}
+}
+
+.stars{display:block;font-size:1.7rem;letter-spacing:3px;line-height:1.2;margin:6px 0 4px;background:linear-gradient(90deg,#f5b301 var(--p,100%),#d5dbe1 var(--p,100%));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+.loja-card .loja-hora{font-size:.88rem;color:var(--marca-escura);font-weight:500}
+#lojas .grid{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.loja-card .loja-tel{font-size:.85rem;color:var(--suave);font-weight:400}
+.loja-card .loja-tel:empty{display:none}
+
+
+/* ===== Padronizacao v2: tipografia unica, sem caixa alta, cards limpos ===== */
+body{font-size:17px;line-height:1.6}
+h1,h2,h3{font-weight:700;letter-spacing:0;text-transform:none}
+h1{font-size:clamp(1.8rem,4vw,2.4rem);line-height:1.2}
+h2{font-size:clamp(1.4rem,3vw,1.8rem);line-height:1.25}
+h3{font-size:1.05rem;line-height:1.35;font-weight:600}
+p{margin:0 0 1em}
+.lead{font-size:1.05rem;color:var(--suave)}
+.sec-head{margin-bottom:28px}
+.sec-head .tag{display:none}
+.tag{text-transform:none;letter-spacing:0;font-size:.85rem;font-weight:600;padding:4px 12px}
+.bloco header{letter-spacing:0;text-transform:none;font-size:1.05rem;font-weight:700;padding:14px 22px}
+.bloco h2{font-size:1.2rem}
+.hero-lojas__titulo{letter-spacing:0;font-weight:600}
+.hero h1{font-size:clamp(1.9rem,4vw,2.6rem)}
+section{padding:56px 0}
+@media(max-width:700px){section{padding:40px 0}}
+.btn{font-size:1rem;font-weight:600;min-height:50px;padding:12px 24px}
+summary{font-weight:600}
+.stat strong{font-weight:700;font-size:2.2rem}
+.passos li h3{font-weight:600}
+.loja-card strong{font-size:1.1rem;font-weight:600}
+.tile h3{font-size:1.05rem;font-weight:600}
+
+/* Topo simples das paginas de categoria */
+.hero-simples>*{max-width:760px}
+.hero-simples h1{margin-bottom:.4em}
+.hero-simples .lead{font-size:1.05rem;color:var(--texto);margin:0}
+.hero-soft{padding:8px 0 36px}
+
+/* Menu Produtos com submenu */
+.menu-item{position:relative}
+.submenu{display:none;position:absolute;top:100%;left:0;min-width:250px;background:#fff;border:1px solid var(--borda);border-radius:14px;padding:8px;box-shadow:var(--sombra-forte);z-index:70}
+.submenu a{display:block;padding:10px 14px;border-radius:8px;white-space:nowrap}
+.menu-item:hover .submenu,.menu-item:focus-within .submenu{display:block}
+@media(max-width:900px){
+  .submenu{display:block;position:static;border:0;box-shadow:none;padding:0 0 0 16px;min-width:0}
+  .submenu a{padding:8px 14px;font-size:.95rem;color:var(--suave)}
+}
+
+/* Abas de filtro */
+.abas{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:0 0 28px}
+.aba{font:inherit;font-size:.95rem;font-weight:600;padding:9px 18px;border-radius:99px;border:1px solid var(--borda);background:#fff;color:var(--texto);cursor:pointer}
+.aba:hover{border-color:var(--marca)}
+.aba.is-on{background:var(--marca-escura);border-color:var(--marca-escura);color:#fff}
+.mcard[hidden]{display:none}
+
+/* Cartao de modelo limpo */
+.grid--modelos{grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:20px}
+.mcard{display:flex;flex-direction:column;padding:0;overflow:hidden;border:1px solid var(--borda);border-radius:16px;background:#fff;color:var(--texto);text-decoration:none;box-shadow:none;transition:box-shadow .2s,border-color .2s}
+.mcard:hover{transform:none;box-shadow:var(--sombra-forte);border-color:var(--marca)}
+.mcard__img{display:block;aspect-ratio:1/1;background:#fff;border:0;border-bottom:1px solid var(--borda);border-radius:0;margin:0;padding:0;overflow:hidden}
+.mcard__img img{display:block;width:100%;height:100%;object-fit:cover}
+.mcard__body{display:flex;flex-direction:column;gap:6px;padding:14px 16px 16px}
+.mcard h3{font-size:1rem;font-weight:600;line-height:1.35;margin:0 0 6px;min-height:2.7em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.mcard__linha{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-size:.92rem;color:var(--suave);border-top:1px solid var(--borda);padding-top:6px}
+.mcard__linha span:last-child{font-weight:600;color:var(--texto);text-align:right}
+.mcard__linha .sem-preco{font-weight:400!important;font-size:.88rem;color:var(--suave)}
+
+
+/* Categoria: titulo direto na lista + precos em destaque */
+.primeira{padding-top:40px}
+.sec-head h1{font-size:clamp(1.6rem,3.4vw,2.1rem);margin-bottom:.4em}
+.mcard h3{margin:0;padding:14px 16px 12px;min-height:calc(2.7em + 26px)}
+.mcard__body{display:none}
+.mcard__precos{display:grid;grid-template-columns:1fr 1fr;margin-top:auto;border-top:1px solid var(--borda);background:var(--fundo)}
+.mcard__preco{display:flex;flex-direction:column;gap:2px;padding:12px 14px}
+.mcard__preco+.mcard__preco{border-left:1px solid var(--borda)}
+.mcard__preco small{font-size:.78rem;color:var(--suave);font-weight:500}
+.mcard__preco span{font-size:1.2rem;font-weight:700;color:var(--texto);line-height:1.2}
+.mcard__preco--a span{color:var(--marca-escura)}
+.mcard__preco .sem-preco{font-size:.95rem!important;font-weight:600!important;color:var(--suave)}
+.mcard:hover .mcard__precos{background:var(--marca-clara)}
+
+.mcard__preco small{text-transform:none!important;letter-spacing:0!important;font-size:.8rem}
+.mcard__preco span{white-space:nowrap;font-size:1.15rem}
+
+
+/* Quem confia: nota geral + depoimentos */
+.nota-geral{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:6px}
+.nota-geral strong{font-size:2rem;font-weight:700;color:var(--texto);line-height:1}
+.nota-geral .stars{display:inline-block;font-size:1.5rem;margin:0}
+.nota-txt{color:var(--suave);font-size:.98rem}
+.depos{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));align-items:start}
+.depo{margin:0;background:#fff;border-radius:14px;padding:22px 22px 20px;box-shadow:var(--sombra)}
+.depo__est{color:#f5b301;letter-spacing:3px;font-size:1.15rem;margin-bottom:10px}
+.depo blockquote{margin:0 0 16px;color:var(--suave);font-size:.98rem;line-height:1.6}
+.depo figcaption{font-weight:600;color:var(--texto);font-size:.95rem}
+.loja-card .loja-nota{font-size:.85rem;color:var(--texto);font-weight:600}
+
+
+/* Resumo da nota do Google */
+.nota-card{display:inline-flex;align-items:center;gap:16px;background:#fff;border:1px solid var(--borda);border-radius:16px;padding:14px 24px;margin-top:14px;box-shadow:var(--sombra);text-align:left}
+.nota-card__num{font-size:2.6rem;font-weight:700;line-height:1;color:var(--texto)}
+.nota-card__info{display:flex;flex-direction:column;gap:2px;border-left:1px solid var(--borda);padding-left:16px}
+.nota-card .stars{display:block;font-size:1.35rem;margin:0}
+.nota-card__txt{font-size:.9rem;color:var(--suave)}
+.nota-card__txt b{color:var(--texto);font-weight:600}
+
+
+/* Fundo padrao das imagens de produto: mesmo azul em todos os cards */
+.mcard__img,.tile__img,.mhero__img{background:#b9d9ee}
+.mhero__img{border-radius:24px;padding:0;overflow:hidden;box-shadow:var(--sombra)}
+.mhero__img img{width:100%;height:auto;max-height:none;object-fit:cover;aspect-ratio:16/10}
+.img-contain img{object-fit:contain!important;padding:14px;mix-blend-mode:multiply;background:transparent}
+.mhero__img.img-contain img{aspect-ratio:16/10}
+
+/* Barra para trocar de categoria */
+.catbar{background:#fff;border-bottom:1px solid var(--borda)}
+.catbar .wrap{display:flex;gap:10px;overflow-x:auto;padding:12px 20px;scrollbar-width:thin}
+.catbar a{display:flex;align-items:center;gap:10px;flex:0 0 auto;padding:5px 16px 5px 5px;border:1px solid var(--borda);border-radius:99px;text-decoration:none;color:var(--texto);font-weight:600;font-size:.95rem;white-space:nowrap;background:#fff}
+.catbar a img{width:36px;height:36px;border-radius:50%;object-fit:cover;background:#b9d9ee}
+.catbar a:hover{border-color:var(--marca)}
+.catbar a.is-on{background:var(--marca-escura);border-color:var(--marca-escura);color:#fff}
+
+
+/* Pagina de modelo: um card so */
+.mpage{display:grid;grid-template-columns:1fr 1.1fr;gap:32px;align-items:center;background:#fff;border-radius:24px;padding:24px;box-shadow:var(--sombra)}
+.mpage .mhero__img{box-shadow:none;border-radius:18px}
+.mpage__info h1{font-size:clamp(1.5rem,3vw,2rem);margin-bottom:.5em}
+.mpage__info p{margin:0 0 14px;font-size:.95rem}
+.mprecos{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--borda);border-radius:14px;overflow:hidden;margin:16px 0 18px;background:var(--fundo)}
+.mprecos>div{display:flex;flex-direction:column;gap:2px;padding:14px 18px}
+.mprecos>div+div{border-left:1px solid var(--borda)}
+.mprecos small{font-size:.85rem;color:var(--suave);font-weight:500}
+.mprecos span{font-size:1.7rem;font-weight:700;line-height:1.2;color:var(--texto);white-space:nowrap}
+.mprecos__a span{color:var(--marca-escura)}
+.mprecos .sem-preco{font-size:1rem!important;font-weight:600!important;color:var(--suave)}
+@media(max-width:820px){.mpage{grid-template-columns:1fr;padding:18px}}
+
+
+/* Lojas compactas (paginas de modelo) */
+.h-pequeno{font-size:1.15rem;margin-bottom:14px}
+.lojas-mini{grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.lojas-mini .loja-card{padding:12px 16px;gap:2px;box-shadow:none}
+.lojas-mini .loja-card strong{font-size:1rem}
+.lojas-mini .loja-end{font-size:.85rem}
+.lojas-mini .loja-hora,.lojas-mini .loja-tel{display:none}
+.lojas-mini .loja-card em{font-size:.85rem;margin-top:2px}
+
+
+/* ===== Celular: topo da Home com a foto inteira (entregador, cliente e cadeira) ===== */
+@media(max-width:860px){
+  .hero.com-foto{padding:0 0 28px;background:linear-gradient(180deg,#0490d1 0%,#0a6a9a 100%)}
+  .hero.com-foto .hero-grid{gap:0}
+  .hero.com-foto .hero-art{display:block;order:-1;margin:0 -20px 22px}
+  .hero-art img.foto{width:100%;max-width:none;aspect-ratio:16/9;object-fit:cover;object-position:100% 50%;border:0;border-radius:0;box-shadow:none}
+  .hero.com-foto h1{font-size:1.7rem}
+  .hero.com-foto p.lead{font-size:1.02rem}
+}
+
+@media(max-width:860px){
+  .hero.com-foto .hero-cta{flex-direction:column}
+  .hero.com-foto .hero-cta .btn{width:100%}
+}
+
+
+/* ===== Celular: cards em 2 colunas, mais compactos ===== */
+@media(max-width:600px){
+  .grid--modelos{grid-template-columns:1fr 1fr;gap:12px}
+  .mcard{border-radius:14px}
+  .mcard h3{font-size:.9rem;line-height:1.3;padding:10px 12px 8px;min-height:calc(3 * 1.3em + 18px);-webkit-line-clamp:3}
+  .mcard__precos{grid-template-columns:1fr}
+  .mcard__preco{flex-direction:row;justify-content:space-between;align-items:baseline;gap:6px;padding:8px 12px}
+  .mcard__preco+.mcard__preco{border-left:0;border-top:1px solid var(--borda)}
+  .mcard__preco small{font-size:.78rem}
+  .mcard__preco span{font-size:1rem}
+  .mcard__preco .sem-preco{font-size:.85rem!important}
+  .tiles{grid-template-columns:1fr 1fr;gap:12px}
+  .tile{padding:10px 10px 16px;border-radius:16px}
+  .tile h3{font-size:.95rem}
+  .tile__go{font-size:.85rem}
+  .tiles .tile:last-child:nth-child(odd){grid-column:1/-1}
+  .tiles .tile:last-child:nth-child(odd) .tile__img{aspect-ratio:16/9}
+  .sec-head{margin-bottom:22px}
+  h1{font-size:1.55rem}
+  h2{font-size:1.35rem}
+}
+
+@media(max-width:600px){
+  .mprecos>div{padding:12px 14px}
+  .mprecos span{font-size:1.35rem}
+  .mprecos small{font-size:.8rem}
+  .mpage__info h1{font-size:1.4rem}
+  .mpage{padding:14px;border-radius:20px}
+  .depos{gap:14px}
+  .passos li::before{width:52px;height:52px;font-size:1.2rem}
+}
+
+
+/* Pagina de loja: no celular o cartao com endereco e botoes vem primeiro */
+.loja-topo{display:grid;gap:28px;grid-template-columns:1fr 1fr;align-items:start}
+.loja-topo>.card{border-radius:16px;box-shadow:var(--sombra);background:#fff}
+@media(max-width:820px){
+  .loja-topo{grid-template-columns:1fr;gap:20px}
+  .loja-topo>.card{order:-1;padding:20px!important}
+}
+
+
+/* Celular: botoes de chamada em largura total; telefone da LP em uma linha */
+@media(max-width:600px){
+  .hero-cta{flex-direction:column}
+  .hero-cta .btn{width:100%}
+  .lp-topo .btn{white-space:nowrap;padding:8px 14px;font-size:.95rem}
+  .lp-topo .logo img{height:44px}
+}
