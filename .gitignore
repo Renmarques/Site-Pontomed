@@ -7,3 +7,6 @@ Thumbs.db
 
 # foto original do topo (a versao otimizada ja esta em site/assets/img/hero.webp)
 hero.jpg.jpeg
+
+# pacotes gerados para envio
+*.zip
