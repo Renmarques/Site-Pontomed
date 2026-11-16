@@ -613,3 +613,16 @@ else:
     rb = "User-agent: *\nDisallow: /\n"
 open(os.path.join(SITE, "robots.txt"), "w", encoding="utf-8", newline="\n").write(rb)
 print(len(urls), "urls no sitemap")
+
+# lembretes antes de publicar
+_avisos = []
+if "seudominio" in DOM:
+    _avisos.append("o dominio ainda e o de exemplo (dados/site.json > dominio)")
+if GTM_ID == "GTM-XXXXXXX":
+    _avisos.append("o gtmId ainda e o de exemplo (dados/site.json > gtmId): o rastreamento nao funciona")
+if not INDEXAR:
+    _avisos.append("indexar=false: o Google NAO vai listar o site (ok para previa; troque para true no lancamento)")
+if not os.path.exists(os.path.join(SITE, "assets", "img", "og.jpg")):
+    _avisos.append("falta a imagem de compartilhamento site/assets/img/og.jpg (1200x630)")
+for _a in _avisos:
+    print("ATENCAO:", _a)
