@@ -1,0 +1,47 @@
+name: Gerar site e atualizar a branch producao
+
+# A cada mudanca em dados/, ferramentas/ ou nos arquivos do site, gera o site de novo
+# e atualiza a branch "producao", que e a que a Hostinger publica.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dados/**"
+      - "ferramentas/**"
+      - "build.py"
+      - "site/assets/**"
+      - "site/.htaccess"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gerar o site
+        run: python build.py
+
+      - name: Guardar o site gerado em main (se mudou)
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Site gerado automaticamente"
+            git push origin main
+          fi
+
+      - name: Atualizar a branch producao (raiz = conteudo de site/)
+        run: |
+          git subtree split --prefix=site -b producao-tmp
+          git push --force origin producao-tmp:producao
