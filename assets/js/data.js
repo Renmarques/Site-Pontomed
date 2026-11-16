@@ -2,7 +2,7 @@
 window.PONTOMED = {
   "site": {
     "nome": "Ponto Med",
-    "dominio": "https://seudominio.com.br",
+    "dominio": "https://pontomedaluguel.com.br",
     "gtmId": "GTM-XXXXXXX",
     "indexar": false,
     "telefone": "(21) 2042-6767",
