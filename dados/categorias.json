@@ -162,40 +162,5 @@
     ],
     "lp": null,
     "card_desc": "Cadeira higiênica para banho e uso no banheiro, com mais segurança."
-  },
-  "botas-ortopedicas-e-imobilizadores": {
-    "nome": "Botas ortopédicas e imobilizadores",
-    "ordem": 5,
-    "title": "Bota Ortopédica e Imobilizador: Aluguel e Venda no RJ | Ponto Med",
-    "desc": "Aluguel de bota ortopédica e imobilizador à venda no Rio. Proteção após entorse, fratura e cirurgia. Lojas no Leblon, Gávea, Copacabana e Laranjeiras.",
-    "h1": "Botas ortopédicas e imobilizadores: aluguel e venda no Rio de Janeiro",
-    "h2a": "Aluguel de bota ortopédica",
-    "h2v": "Bota ortopédica e imobilizador à venda",
-    "modelos_h2": "Bota ortopédica e imobilizador: aluguel e venda",
-    "modelos_p": "Fale com a loja mais próxima para saber o modelo indicado para o seu caso. Sempre siga a orientação do seu médico.",
-    "faq": [
-      [
-        "Posso alugar bota ortopédica?",
-        "Sim. O aluguel de bota ortopédica é uma opção para quem precisa do equipamento por tempo determinado. Consulte os valores no WhatsApp."
-      ],
-      [
-        "Preciso de receita para comprar imobilizador?",
-        "Consulte a loja pelo WhatsApp sobre as condições. Sempre siga a orientação do seu médico."
-      ],
-      [
-        "Como saber o tamanho certo?",
-        "A equipe orienta sobre o tamanho e o ajuste ao retirar o equipamento na loja."
-      ],
-      [
-        "Por quanto tempo devo usar?",
-        "O tempo de uso é definido pelo seu médico ou fisioterapeuta."
-      ],
-      [
-        "Vocês vendem bota ortopédica?",
-        "Sim, trabalhamos com bota ortopédica e imobilizador à venda e para aluguel. Consulte modelos e valores no WhatsApp."
-      ]
-    ],
-    "lp": null,
-    "card_desc": "Proteção e imobilização após entorses, fraturas e cirurgias."
   }
 }

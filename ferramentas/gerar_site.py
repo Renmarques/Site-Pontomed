@@ -84,7 +84,7 @@ def header(full=True):
     <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav id="menu" aria-label="Principal">
       <div class="menu-item"><a href="/produtos">Produtos</a>
-        <div class="submenu"><a href="/cadeira-de-rodas">Cadeira de rodas</a><a href="/muletas">Muletas</a><a href="/andadores">Andadores</a><a href="/cadeira-de-banho">Cadeira de banho</a><a href="/botas-ortopedicas-e-imobilizadores">Botas e imobilizadores</a></div></div>
+        <div class="submenu"><a href="/cadeira-de-rodas">Cadeira de rodas</a><a href="/muletas">Muletas</a><a href="/andadores">Andadores</a><a href="/cadeira-de-banho">Cadeira de banho</a></div></div>
       <a href="/lojas">Lojas</a>
       <a href="/#como-funciona">Como alugar</a>
       <a href="/perguntas-frequentes">Dúvidas</a>
@@ -96,7 +96,7 @@ def header(full=True):
 FOOTER = """<footer class="rodape">
   <div class="wrap cols">
     <div><h3>Ponto Med</h3><p>Aluguel e venda de materiais hospitalares no Rio de Janeiro.</p><p>Tel.: <a href="tel:+552120426767" data-track="telefone">(21) 2042-6767</a></p></div>
-    <div><h3>Produtos</h3><ul><li><a href="/cadeira-de-rodas">Cadeira de rodas</a></li><li><a href="/muletas">Muletas</a></li><li><a href="/andadores">Andadores</a></li><li><a href="/cadeira-de-banho">Cadeira de banho</a></li><li><a href="/botas-ortopedicas-e-imobilizadores">Botas e imobilizadores</a></li></ul></div>
+    <div><h3>Produtos</h3><ul><li><a href="/cadeira-de-rodas">Cadeira de rodas</a></li><li><a href="/muletas">Muletas</a></li><li><a href="/andadores">Andadores</a></li><li><a href="/cadeira-de-banho">Cadeira de banho</a></li><li></ul></div>
     <div><h3>Lojas</h3><ul><li><a href="/loja-leblon">Leblon</a></li><li><a href="/loja-gavea">Gávea</a></li><li><a href="/loja-copacabana">Copacabana</a></li><li><a href="/loja-laranjeiras">Laranjeiras</a></li></ul></div>
     <div><h3>Institucional</h3><ul><li><a href="/perguntas-frequentes">Perguntas frequentes</a></li></ul></div>
   </div>
@@ -186,7 +186,7 @@ def catbar(atual):
     for s, p in sorted(PRODUTOS.items(), key=lambda kv: kv[1]["ordem"]):
         on = ' class="is-on" aria-current="page"' if s == atual else ""
         x0 = p["modelos"][0]
-        itens += f'<a href="/{s}"{on}><img src="{x0["img"]}" alt="" width="36" height="36" loading="lazy"><span>{p["nome"].replace("Botas ortopédicas e imobilizadores","Botas e imobilizadores")}</span></a>'
+        itens += f'<a href="/{s}"{on}><img src="{x0["img"]}" alt="" width="36" height="36" loading="lazy"><span>{p["nome"]}</span></a>'
     return f'<nav class="catbar" aria-label="Categorias de produtos"><div class="wrap">{itens}</div></nav>'
 
 def produto_page(slug, p):
@@ -375,11 +375,11 @@ def institucionais():
     body = f"""{crumbs(crumb)}
 <section class="hero-soft"><div class="wrap">
 <h1>Produtos de mobilidade: aluguel e venda no Rio de Janeiro</h1>
-<p class="lead">Cadeira de rodas, muletas, andadores, cadeira de banho e botas ortopédicas. Em cada página você compara aluguel e venda e chama a loja mais próxima no WhatsApp.</p>
+<p class="lead">Cadeira de rodas, muletas, andadores e cadeira de banho. Em cada página você compara aluguel e venda e chama a loja mais próxima no WhatsApp.</p>
 <div class="tiles" style="margin-top:24px">
 {cards}
 </div></div></section>"""
-    page("/produtos","Produtos de Mobilidade: Aluguel e Venda no RJ | Ponto Med","Cadeira de rodas, muletas, andadores, cadeira de banho e botas ortopédicas para alugar ou comprar no Rio de Janeiro. Veja e fale pelo WhatsApp.",body,bc_schema(crumb),priority="0.9")
+    page("/produtos","Produtos de Mobilidade: Aluguel e Venda no RJ | Ponto Med","Cadeira de rodas, muletas, andadores e cadeira de banho para alugar ou comprar no Rio de Janeiro. Veja e fale pelo WhatsApp.",body,bc_schema(crumb),priority="0.9")
 
     # lojas hub
     crumb = [("Início","/"),("Lojas","/lojas")]
@@ -400,7 +400,7 @@ def institucionais():
      ("O site vende ou aluga direto?","Não. O site mostra produtos e valores, e o pedido é feito pelo WhatsApp da loja escolhida."),
      ("Vocês entregam?","Informamos as condições de entrega pelo WhatsApp da loja escolhida."),
      ("Posso comprar depois de alugar?","Consulte as condições no WhatsApp da loja."),
-     ("Quais produtos vocês oferecem?","Cadeira de rodas, muletas, andadores, cadeira de banho e botas ortopédicas e imobilizadores, para aluguel e venda."),
+     ("Quais produtos vocês oferecem?","Cadeira de rodas, muletas, andadores e cadeira de banho, para aluguel e venda."),
      ("Quais lojas vocês têm?","Leblon, Gávea, Copacabana e Laranjeiras, no Rio de Janeiro."),
      ("Como peço valores?","Os valores aparecem nas páginas dos produtos. Quando houver dúvida, chame a loja pelo WhatsApp.")]
     crumb = [("Início","/"),("Perguntas frequentes","/perguntas-frequentes")]
@@ -507,7 +507,7 @@ def home_page():
   </div>
 </section>"""
     page("/", "Aluguel e Venda de Materiais Hospitalares no RJ | Ponto Med",
-         "Alugue ou compre cadeira de rodas, muletas, andadores, cadeira de banho e botas ortopédicas no Rio de Janeiro. 4 lojas: Leblon, Gávea, Copacabana e Laranjeiras. Chame no WhatsApp.",
+         "Alugue ou compre cadeira de rodas, muletas, andadores e cadeira de banho no Rio de Janeiro. 4 lojas: Leblon, Gávea, Copacabana e Laranjeiras. Chame no WhatsApp.",
          body, schema, sitemap=False)
 
 

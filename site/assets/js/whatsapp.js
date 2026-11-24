@@ -39,8 +39,7 @@
       var art = /a$/i.test(mn.split(" ")[0]) ? "a" : "o";   /* ex.: "a Cadeira Higiênica", "o Andador Com 4 Rodas" */
       objeto = art + " " + mn;
     } else {
-      var plural = { "cadeira-de-rodas": "cadeiras de rodas", "cadeira-de-banho": "cadeiras de banho e higiênicas",
-                     "botas-ortopedicas-e-imobilizadores": "botas ortopédicas e imobilizadores" };
+      var plural = { "cadeira-de-rodas": "cadeiras de rodas", "cadeira-de-banho": "cadeiras de banho e higiênicas" };
       objeto = plural[produtoId] || p.nome.toLowerCase();    /* ex.: "cadeiras de rodas", "muletas" */
     }
     if (tipo === "aluguel") return inicio + "alugar " + objeto + ".";

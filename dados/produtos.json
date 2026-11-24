@@ -11,8 +11,8 @@
         "Suporta usuários de até 125 kg"
       ],
       "peso": "até 125 kg",
-      "aluguel": 600,
-      "venda": 12100,
+      "aluguel": 180,
+      "venda": 2300,
       "descricao": "Cadeira de rodas dobrável em alumínio, leve, resistente e confortável, ideal para uso diário, transporte e reabilitação. A estrutura em alumínio não enferruja e o sistema dobrável em X deixa a cadeira compacta para transportar. Conta com pneus maciços antifuro e rodas traseiras com remoção rápida, apoio de braços removível e apoio de pés rebatível.",
       "contain": false
     },
@@ -28,7 +28,7 @@
       ],
       "peso": null,
       "aluguel": 600,
-      "venda": 8000,
+      "venda": 2000,
       "descricao": "Cadeira de rodas em alumínio dobrável, leve e resistente, ideal para uso diário com conforto, segurança e praticidade. O sistema dobrável em X simples e o encosto rebatível facilitam o transporte e o armazenamento.",
       "contain": false
     },
@@ -113,22 +113,6 @@
       "contain": false
     },
     {
-      "id": "transferencia-banho",
-      "nome": "Cadeira de Transferência e Banho",
-      "aba": "Transferência",
-      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404708451/cadeira-higi-nica-amarela-sobre-rod-zios-cb8a603b-3d5t0ecf6n.png",
-      "destaques": [
-        "Facilita a transferência até o vaso sanitário",
-        "Altura do assento regulável",
-        "Assento acolchoado com capa removível"
-      ],
-      "peso": null,
-      "aluguel": 290,
-      "venda": null,
-      "descricao": "Cadeira multifuncional para transferência, banho e higiene, desenvolvida para proporcionar mais segurança, conforto e praticidade ao usuário e ao cuidador.",
-      "contain": false
-    },
-    {
       "id": "transferencia-geral",
       "nome": "Cadeira de Transferência",
       "aba": "Transferência",
@@ -139,8 +123,8 @@
         "Mais conforto, estabilidade e autonomia para o paciente"
       ],
       "peso": null,
-      "aluguel": null,
-      "venda": null,
+      "aluguel": 350,
+      "venda": 6400,
       "descricao": "A cadeira de transferência foi desenvolvida para proporcionar mais segurança e praticidade no cuidado diário. É ideal para transferências entre cadeira, sofá e banheiro, reduzindo o esforço físico do cuidador. Mais conforto, estabilidade e autonomia para o paciente.",
       "contain": false
     }
@@ -158,72 +142,8 @@
       ],
       "peso": null,
       "aluguel": 90,
-      "venda": 400,
+      "venda": 330,
       "descricao": "Cadeira higiênica em aço carbono desenvolvida para proporcionar segurança, conforto e praticidade durante a higiene pessoal de pessoas com mobilidade reduzida.",
-      "contain": false
-    },
-    {
-      "id": "higienica-obeso",
-      "nome": "Cadeira Higiênica Obeso",
-      "aba": "Higiênicas",
-      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404703516/cadeira-higi-nica-preta-com-assento-branco-obeso-6378e73d-tlprbtcn7t.png",
-      "destaques": [
-        "Estrutura reforçada em aço carbono",
-        "Acoplável ao vaso sanitário",
-        "Freios bilaterais dianteiros"
-      ],
-      "peso": null,
-      "aluguel": 110,
-      "venda": 900,
-      "descricao": "Cadeira higiênica para obeso desenvolvida para proporcionar segurança, conforto e praticidade durante a higiene pessoal e a utilização do vaso sanitário por pessoas com mobilidade reduzida.",
-      "contain": false
-    },
-    {
-      "id": "verona",
-      "nome": "Cadeira Para Higienização - Verona",
-      "aba": "Higiênicas",
-      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/198414120/307fdd7ad8b44d21828f956f80a6b578-fu2v3iluq0.png",
-      "destaques": [
-        "Estrutura dobrável em alumínio",
-        "Assento almofadado com abertura frontal",
-        "Coletor com tampa"
-      ],
-      "peso": "até 110 kg",
-      "aluguel": null,
-      "venda": null,
-      "descricao": "Cadeira para higienização dobrável, uma cadeira de banho muito prática com recursos que fazem a diferença na hora da higienização. Com estrutura dobrável em alumínio, é fácil de guardar e transportar. Tem assento almofadado com abertura frontal, apoios articulados para os pés, quatro rodízios (os dois traseiros com freio) e coletor com tampa. Largura total de 64 cm, altura do assento de 44,5 a 52 cm e capacidade máxima de 110 kg.",
-      "contain": false
-    },
-    {
-      "id": "banho-4-em-1",
-      "nome": "Cadeira de Banho",
-      "aba": "Banho",
-      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/404572049/cadeira-higi-nica-azul-com-rodas-260c9e20-at0p6z9v65.png",
-      "destaques": [
-        "Função 4 em 1: banho, vaso sanitário, higiene e transporte",
-        "Estrutura leve em alumínio antiferrugem",
-        "Apoios de braços escamoteáveis"
-      ],
-      "peso": null,
-      "aluguel": null,
-      "venda": 700,
-      "descricao": "Cadeira de banho multifuncional em alumínio, leve, resistente e desenvolvida para oferecer mais segurança e praticidade durante o banho, a higiene e o transporte.",
-      "contain": false
-    },
-    {
-      "id": "d60",
-      "nome": "Cadeira de Banho D60 Dellamed",
-      "aba": "Banho",
-      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/197645859/cadeira-higi-nica-azul-com-rodas-3a87da0d-1mpvw9qvmu.png",
-      "destaques": [
-        "Estrutura em alumínio leve e resistente",
-        "Suporta usuários de até 150 kg",
-        "Função 4 em 1: banho, higiene, vaso sanitário e transporte"
-      ],
-      "peso": "até 150 kg",
-      "aluguel": null,
-      "venda": 4900,
-      "descricao": "Cadeira de banho 4 em 1 em alumínio antiferrugem, desmontável, com rodas, comadre removível e capacidade para até 150 kg. Pode ser usada como cadeira de banho, cadeira higiênica, sobre o vaso sanitário e para transporte interno. Tem assento almofadado impermeável, braços escamoteáveis, apoios de pés removíveis e quatro rodízios com travas.",
       "contain": false
     }
   ],
@@ -356,24 +276,6 @@
       "aluguel": 200,
       "venda": null,
       "descricao": "Suporte anatômico para antebraço desenvolvido para proporcionar maior estabilidade, conforto e segurança durante o uso do andador posterior.",
-      "contain": true
-    }
-  ],
-  "botas-ortopedicas-e-imobilizadores": [
-    {
-      "id": "bota-longa",
-      "nome": "Bota imobilizadora Hidrolight Standard longa",
-      "aba": "Botas",
-      "img": "https://cdn.awsli.com.br/400x400/2495/2495914/produto/181310158/ae47e029f3.jpg",
-      "destaques": [
-        "Estofada, com regulagem por fechos aderentes",
-        "Dois protetores de maléolo removíveis",
-        "Estabiliza e ajuda na recuperação dos membros inferiores"
-      ],
-      "peso": null,
-      "aluguel": null,
-      "venda": null,
-      "descricao": "A bota imobilizadora Hidrolight Standard longa é excelente para a estabilização e a recuperação dos membros inferiores. Confeccionada em material estofado de qualidade, proporciona uma recuperação confortável e segura, com regulagem por fechos aderentes. Possui dois protetores de maléolos removíveis que permitem um melhor encaixe no tornozelo.",
       "contain": true
     }
   ]
