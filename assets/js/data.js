@@ -96,10 +96,10 @@ window.PONTOMED = {
           "id": "start-c1",
           "nome": "Cadeira de Rodas Dobrável Start C1 Ottobock",
           "aluguel": {
-            "mensal": 600
+            "mensal": 180
           },
           "venda": {
-            "preco": 12100
+            "preco": 2300
           }
         },
         {
@@ -109,7 +109,7 @@ window.PONTOMED = {
             "mensal": 600
           },
           "venda": {
-            "preco": 8000
+            "preco": 2000
           }
         },
         {
@@ -163,23 +163,13 @@ window.PONTOMED = {
           }
         },
         {
-          "id": "transferencia-banho",
-          "nome": "Cadeira de Transferência e Banho",
-          "aluguel": {
-            "mensal": 290
-          },
-          "venda": {
-            "preco": null
-          }
-        },
-        {
           "id": "transferencia-geral",
           "nome": "Cadeira de Transferência",
           "aluguel": {
-            "mensal": null
+            "mensal": 350
           },
           "venda": {
-            "preco": null
+            "preco": 6400
           }
         }
       ]
@@ -284,62 +274,7 @@ window.PONTOMED = {
             "mensal": 90
           },
           "venda": {
-            "preco": 400
-          }
-        },
-        {
-          "id": "higienica-obeso",
-          "nome": "Cadeira Higiênica Obeso",
-          "aluguel": {
-            "mensal": 110
-          },
-          "venda": {
-            "preco": 900
-          }
-        },
-        {
-          "id": "verona",
-          "nome": "Cadeira Para Higienização - Verona",
-          "aluguel": {
-            "mensal": null
-          },
-          "venda": {
-            "preco": null
-          }
-        },
-        {
-          "id": "banho-4-em-1",
-          "nome": "Cadeira de Banho",
-          "aluguel": {
-            "mensal": null
-          },
-          "venda": {
-            "preco": 700
-          }
-        },
-        {
-          "id": "d60",
-          "nome": "Cadeira de Banho D60 Dellamed",
-          "aluguel": {
-            "mensal": null
-          },
-          "venda": {
-            "preco": 4900
-          }
-        }
-      ]
-    },
-    "botas-ortopedicas-e-imobilizadores": {
-      "nome": "Botas ortopédicas e imobilizadores",
-      "modelos": [
-        {
-          "id": "bota-longa",
-          "nome": "Bota imobilizadora Hidrolight Standard longa",
-          "aluguel": {
-            "mensal": null
-          },
-          "venda": {
-            "preco": null
+            "preco": 330
           }
         }
       ]
